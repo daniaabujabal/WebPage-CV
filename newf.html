@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+        <title>y</title>
+       
+
+    </head>
+
+<body>
+    <p>I am going to <mark>highlight</mark> this text when the reader is working on the page.</p>
+    </body>
+    </html>
+    <script>
+        function highlightSelectedText() {
+          var selection = window.getSelection();
+          if (selection.rangeCount) {
+            var range = selection.getRangeAt(0);
+            var highlightedText = document.createElement("mark");
+            highlightedText.appendChild(range.extractContents());
+            range.insertNode(highlightedText);
+          }
+        }
+      </script>
+      
+      <p>Select some text on this page and it will be highlighted when you release the mouse button.</p>
+      
+      <script>
+        document.addEventListener("mouseup", highlightSelectedText);
+      </script>
+      

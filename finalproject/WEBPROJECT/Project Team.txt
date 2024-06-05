@@ -1,0 +1,12 @@
+Members 
+Nawaf Abuasi 20180066
+Dania Abujabal 20190691
+
+Description:
+This is our restaurant website (Restaurantnz) It consists of 6 pages
+First we are going to introduce the first one which is the Home page, here you can find information about our restaurant and you can go to menu page from it to order your dish.
+The second page is our menu. You can see our menu when entering this page and what we offer, as you see there is plenty of choices you can order from, such as breakfast lunch dinner and dessert 
+then the reservation page comes here you can book a table for as many people you want and you can select the day and the time you want,you should to enter your phone number.
+In My Orders page you can see your previous orders you did in our restaurant.
+In the Profile page you can enter and change at anytime your personal information such as your firt and last name , address, phone number.
+Our website is so safe and no one will have access to it, then comes the Logout Page which you can logout of the website and of course enter again at anytime
